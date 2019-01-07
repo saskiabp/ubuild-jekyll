@@ -11,6 +11,8 @@ sections:
 - type: jekyll-posts
   label: Posts
   create: all
+  templates:
+  - page-builder
 - type: directory
   path: ''
   label: Pages
@@ -18,6 +20,8 @@ sections:
   match: "*.md"
   exclude: "*README.md"
   new_doc_ext: md
+  templates:
+  - page-builder
 upload_dir: uploads
 public_path: "/uploads"
 front_matter_path: ''
